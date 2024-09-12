@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFAD1">
+
+    <TextView
+        android:id="@+id/tvRemarksTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="ĐÁNH GIÁ CỦA KHÁCH HÀNG"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginBottom="20dp" />
+
+    <ListView
+        android:id="@+id/lvRemarks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

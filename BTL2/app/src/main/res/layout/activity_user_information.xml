@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".User_Information">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp">
+
+        <ImageView
+            android:id="@+id/imgNhaxe"
+            android:layout_width="match_parent"
+            android:layout_height="229dp"
+            android:layout_gravity="top"
+            android:scaleType="centerCrop"
+            android:src="@drawable/nhaxe"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:text="THÔNG TIN CHI TIẾT"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnGioiThieu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#1C7FCE"
+            android:text="GIỚI THIỆU NHÀ XE"
+            android:textColor="@color/white" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnTuyenDuong"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TUYẾN ĐƯỜNG PHỔ BIẾN"
+            android:backgroundTint="#1C7FCE" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnVanPhong"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="VĂN PHÒNG NHÀ XE"
+            android:backgroundTint="#1C7FCE"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnQuyChe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#1C7FCE"
+            android:text="QUY CHẾ" />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/tvTicketID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mã vé"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTicketID1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mã vé"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginRight="70dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/tvSeatNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số ghế"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvSeatNum1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số ghế"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giá"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvPrice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giá"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/tvTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tổng"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvTotal1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tổng"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/tvBusTripID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mã chuyến xe"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvBusTripID1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mã chuyến xe"
+                android:textSize="14sp" />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

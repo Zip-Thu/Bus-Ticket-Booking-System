@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFAD1"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitleDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="TRA CỨU THEO MÃ VÉ"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtTicketID"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:hint="  Nhập mã vé" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#1C7FCE"
+        android:text="TÌM KIẾM" />
+
+    <TextView
+        android:id="@+id/tvResultTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kết quả tìm kiếm:"
+        android:visibility="gone"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lvTickets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

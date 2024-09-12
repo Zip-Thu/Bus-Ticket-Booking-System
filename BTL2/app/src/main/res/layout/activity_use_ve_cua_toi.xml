@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFAD1">
+
+    <EditText
+        android:id="@+id/edtTicketID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mã vé để hủy"
+        android:inputType="number"
+        android:padding="12dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:drawable/edit_text" />
+
+    <Button
+        android:id="@+id/btnCancelTicket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HỦY VÉ"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FF5722" />
+
+    <Button
+        android:id="@+id/btnRemark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ĐÁNH GIÁ CHÚNG TÔI"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#4CAF50" />
+
+    <TextView
+        android:id="@+id/tvTitleUserTickets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="VÉ CỦA BẠN"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvResultTitleUserTickets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Danh sách vé của bạn:"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/lvUserTickets"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

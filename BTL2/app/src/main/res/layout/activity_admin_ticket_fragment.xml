@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".User_Information">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp">
+
+        <ImageView
+            android:id="@+id/imgNhaxe"
+            android:layout_width="match_parent"
+            android:layout_height="229dp"
+            android:layout_gravity="top"
+            android:scaleType="centerCrop"
+            android:src="@drawable/nhaxe"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:text="QUẢN LÝ HỆ THỐNG VÉ XE"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btnBus"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#1C7FCE"
+                android:text="QUẢN LÝ XE BUS"
+                android:textColor="@color/white" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btnRoute"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#1C7FCE"
+                android:text="THÊM TUYẾN ĐƯỜNG" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btnBusTrip"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#1C7FCE"
+                android:text="QUẢN LÝ TUYẾN XE" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btnTicket"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#1C7FCE"
+                android:text="TRA CỨU VÉ" />
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

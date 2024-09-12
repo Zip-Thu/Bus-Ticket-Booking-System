@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFAD1"
+    tools:context=".Admin_BusTrip">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView151"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="QUẢN LÝ BUSTRIP"
+            android:textSize="30dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/edtBusTripID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="BusTrip ID"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/edtDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:focusable="false"
+                    android:hint="Date (yyyy-mm-dd)"
+                    android:inputType="date" />
+
+                <EditText
+                    android:id="@+id/edtTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/edtDate"
+                    android:layout_marginTop="16dp"
+                    android:focusable="false"
+                    android:hint="Time (HH:mm)"
+                    android:inputType="time" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="BIỂN SỐ XE" />
+
+                <Spinner
+                    android:id="@+id/spinnerBus"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@color/white"
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp" />
+
+                <EditText
+                    android:id="@+id/edtSeatCount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/edtTime"
+                    android:layout_marginTop="16dp"
+                    android:hint="Seat Count"
+                    android:inputType="number" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="ĐIỂM KHỞI HÀNH" />
+
+                <Spinner
+                    android:id="@+id/spinnerStartLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:textAlignment="center"
+                    android:background="@color/white"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="ĐIỂM ĐẾN" />
+
+                <Spinner
+                    android:id="@+id/spinnerEndLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:textAlignment="center"
+                    android:background="@color/white"
+                    android:layout_marginTop="5dp" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <Button
+                            android:id="@+id/btnAddBusTrip"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="15dp"
+                            android:backgroundTint="#1C7FCE"
+                            android:text="THÊM" />
+
+                        <Button
+                            android:id="@+id/btnUpdateBusTrip"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="#1C7FCE"
+                            android:text="SỬA" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <Button
+                            android:id="@+id/btnDeleteBusTrip"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="15dp"
+                            android:layout_marginRight="10dp"
+                            android:backgroundTint="#1C7FCE"
+                            android:text="XÓA" />
+
+                        <Button
+                            android:id="@+id/btnFindBusTrip"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="#1C7FCE"
+                            android:text="TÌM KIẾM" />
+                    </TableRow>
+
+                </TableLayout>
+
+                <ListView
+                    android:id="@+id/lvBusTrips"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

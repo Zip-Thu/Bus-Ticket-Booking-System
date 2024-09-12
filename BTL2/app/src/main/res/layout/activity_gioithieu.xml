@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_ticket"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvGioiThieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Giới thiệu về nhà xe"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvGioiThieuContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhà xe của chúng tôi là một trong những đơn vị vận tải hàng đầu tại Việt Nam, với hơn 20 năm kinh nghiệm trong lĩnh vực cung cấp dịch vụ xe khách liên tỉnh. Từ những ngày đầu thành lập, chúng tôi đã cam kết mang đến cho khách hàng những chuyến đi an toàn, tiện nghi và đúng giờ.
+
+Hiện nay, nhà xe của chúng tôi sở hữu một đội xe hiện đại, đa dạng về chủng loại, từ xe giường nằm cao cấp đến xe ghế ngồi chất lượng cao, đáp ứng nhu cầu di chuyển của mọi đối tượng khách hàng. Đội ngũ lái xe và nhân viên phục vụ của chúng tôi được đào tạo bài bản, luôn đặt sự an toàn và hài lòng của khách hàng lên hàng đầu.
+
+Chúng tôi cung cấp các tuyến đường trải dài khắp cả nước, từ những thành phố lớn như Hà Nội, Hồ Chí Minh, Đà Nẵng đến các tỉnh thành khác như Nha Trang, Cần Thơ, Huế... Với mạng lưới văn phòng và trạm xe rộng khắp, chúng tôi luôn sẵn sàng phục vụ khách hàng mọi lúc, mọi nơi.
+
+Không chỉ dừng lại ở việc vận chuyển hành khách, nhà xe của chúng tôi còn chú trọng đến việc phát triển các dịch vụ đi kèm như chuyển phát nhanh hàng hóa, đặt vé trực tuyến, và hỗ trợ khách hàng 24/7. Chúng tôi tin rằng, với sự tận tâm và chuyên nghiệp, nhà xe sẽ luôn là lựa chọn hàng đầu cho mọi hành trình của bạn."
+        android:textSize="16sp" />
+</LinearLayout>

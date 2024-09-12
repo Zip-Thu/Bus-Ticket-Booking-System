@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_remark"
+        android:icon="@drawable/ic_remark"
+        android:title="Xem đánh giá" />
+    <item
+        android:id="@+id/nav_ticket"
+        android:icon="@drawable/ic_ticket"
+        android:title="Quản lý vé" />
+    <item
+        android:id="@+id/nav_customer"
+        android:icon="@drawable/ic_customer"
+        android:title="Quản lý người dùng" />
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/ic_account"
+        android:title="Account" />
+</menu>

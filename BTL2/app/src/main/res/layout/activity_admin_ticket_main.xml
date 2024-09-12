@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_ticket"
+    tools:context=".AdminTicketMain">
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="TRA CỨU VÉ"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btnMaVe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#1C7FCE"
+                android:text="TRA CỨU THEO MÃ VÉ"
+                android:textColor="@color/white" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btnMaKH"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#1C7FCE"
+                android:text="THỐNG KÊ VÉ THEO MÃ KHÁCH HÀNG" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btnNgay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#1C7FCE"
+                android:text="THỐNG KÊ VÉ THEO NGÀY" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp">
+
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
